@@ -3,14 +3,6 @@ const stop = document.querySelector('.stop')
 const tim = document.querySelector('.time')
 const ms = document.querySelector('.ms')
 
-const time = new Date()
-const t = {
-  hours: time.getHours(),
-  minutes: time.getMinutes(),
-  seconds: time.getSeconds(),
-  milliseconds: time.getMilliseconds(),
-}
-
 start.addEventListener('click', () => {
   setInterval(() => {
     const time = new Date()
