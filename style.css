@@ -46,3 +46,10 @@ p.ms {
   font-size: 2.5vw;
   margin-top: -40px;
 }
+
+.dev {
+  display: flex;
+  margin-bottom: -910px;
+  margin-right: -150px;
+  color: var(--color);
+}
